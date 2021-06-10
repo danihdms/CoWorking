@@ -5,23 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/login_style.css">
+
     <title>Login</title>
 </head>
 
 <body>
     <header>
         <div>
-            <a href="../public/home/index.html">CoWorking.</a>
-            <div>
-                <a href="../public/signup/index.html">Signup</a>
-                <a href="../public/tutorial/index.html">Login</a>
-
-            </div>
+            <ul>
+                <li id="logo"><a href="../public/home/index.html">CoWorking.</a></li>
+                <li class="left"><a href="../public/signup/index.html">Signup</a></li>
+                <li class="left"><a href="../public/tutorial/index.html">Login</a></li>
+            </ul>
         </div>
     </header>
 
     <form action="../../php/login.php" method="POST">
-        <table>
+        <table class="center">
             <tr>
                 <td>
                     <label for="email">Email :</label>
